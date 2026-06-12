@@ -1,0 +1,1567 @@
+[16:51:26] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.3+9-LTS-195; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[16:51:26] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-65-main@fd45f4b (2026-05-22T09:47:01Z) for Minecraft 26.1.2
+[16:51:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:51:28] [ServerMain/INFO]: [FileProviderSource] The spark plugin will not be loaded as this server bundles the spark profiler.
+[16:51:28] [ServerMain/INFO]: [PluginInitializerManager] Initialized 39 plugins
+[16:51:28] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (39):
+ - BAirDrop (1.0.9), BAuction (1.3.3), BLib (1.0.9), BSpawner (1.1.0), BattlePass (4.3.6), BetterTalismans (0.6-BETA), BlueSlimeCore (2.9.6.431), CMI (9.7.5.0), CMIEInjector (1.0.2.4), CMILib (1.5.1.0), Chatty (2.19.14), Chunky (1.2.217), Citizens (2.0.35-SNAPSHOT (build 3473)), DecentHolograms (2.8.11), DeluxeMenus (1.14.0-Release), DevLib (3.1.5), DevMines (1.0.0), EnhancedEnchants (1.6.1), ExecutableItems (6.24.1.7), ItemEdit (3.1.5), LuckPerms (5.4.139), Multiverse-Core (4.3.1-b861), NBTAPI (2.13.1), OvRandomTeleport (1.5.2), PlaceholderAPI (2.11.6), PlayerPoints (3.2.7), PrimeSeller (2.3.6), ProtectionStones (2.8.5), ProtocolLib (5.2.0-SNAPSHOT-679), SCore (42.42.42), SimpleItems (0.3), TAB (4.1.2), TokenManager (3.2.8), Vault (1.7.3-b131), ViaVersion (5.0.3), VoidGen (2.2.1), VoidTeleporter (1.1.0), WorldEdit (7.2.17+6544-56d0383), ajLeaderboards (2.9.0)
+[16:51:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:51:33] [ServerMain/WARN]: [WorldFolderMigration] ===================== ! ALERT ! =====================
+[16:51:33] [ServerMain/WARN]: [WorldFolderMigration] World storage migration is required during startup.
+[16:51:33] [ServerMain/WARN]: [WorldFolderMigration] If you do not have a backup: interrupt the server now. Use Ctrl+C, your panel kill function, etc.
+[16:51:33] [ServerMain/WARN]: [WorldFolderMigration] =====================================================
+[16:51:33] [ServerMain/WARN]: [WorldFolderMigration] Continuing in 30 seconds...
+[16:52:03] [ServerMain/INFO]: [WorldFolderMigration] Continuing with startup world migration.
+[16:52:03] [ServerMain/INFO]: Starting upgrade for world "world"
+[16:52:03] [ServerMain/INFO]: Upgrading progress: 2%
+[16:52:04] [ServerMain/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[16:52:04] [ServerMain/INFO]: Applying file structure changes for world "world"
+[16:52:04] [ServerMain/INFO]: Moving new hardlinked world to top level
+[16:52:04] [ServerMain/INFO]: Start cleanup
+[16:52:04] [ServerMain/INFO]: Moving out old world folder
+[16:52:04] [ServerMain/INFO]: Moving in new world folder
+[16:52:04] [ServerMain/INFO]: Done applying file structure changes for world "world". Cleaning up outdated data...
+[16:52:04] [ServerMain/INFO]: Upgrade done for world "world"
+[16:52:04] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[16:52:05] [Worker-Main-1/INFO]: [VanillaWorldMigration] Starting Vanilla import for world 'world' (minecraft:overworld)
+[16:52:05] [Worker-Main-1/INFO]: [VanillaWorldMigration] Completed Vanilla import for world 'world' (minecraft:overworld)
+[16:52:05] [ServerMain/INFO]: Loaded 1515 recipes
+[16:52:06] [ServerMain/INFO]: Loaded 1617 advancements
+[16:52:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[16:52:06] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 335,1ms
+[16:52:06] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[16:52:06] [Server thread/INFO]: Loading properties
+[16:52:07] [Server thread/INFO]: This server is running Paper version 26.1.2-65-main@fd45f4b (2026-05-22T09:47:01Z) (Implementing API version 26.1.2.build.65-stable)
+[16:52:07] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:52:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:52:07] [Server thread/INFO]: Using 6 threads for Netty based IO
+[16:52:07] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[16:52:07] [Server thread/INFO]: Default game type: SURVIVAL
+[16:52:07] [Server thread/INFO]: Generating keypair
+[16:52:07] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[16:52:07] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:52:07] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:52:07] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\BAirDrop-1.0.9.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldGuard]. Please download and install these plugins to run 'BAirDrop'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:336) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:07] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins\ProtectionStones-2.8.5.jar' in 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldGuard]. Please download and install these plugins to run 'ProtectionStones'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:336) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:08] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'worldedit-bukkit-7.2.17.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:336) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:547) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	... 9 more
+Caused by: java.lang.IllegalStateException: 
+**********************************************
+** This Minecraft version (26.1.2-65-fd45f4b (MC: 26.1.2)) is not supported by this version of WorldEdit.
+** Please download an OLDER version of WorldEdit which does.
+**********************************************
+
+	at worldedit-bukkit-7.2.17.jar//com.sk89q.worldedit.bukkit.WorldEditPlugin.<clinit>(WorldEditPlugin.java:112) ~[?:?]
+	... 13 more
+[16:52:08] [Server thread/INFO]: [SpigotLibraryLoader] [OvRandomTeleport] Loading 1 libraries... please wait
+[16:52:08] [Server thread/INFO]: [SpigotLibraryLoader] [OvRandomTeleport] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\com\github\ben-manes\caffeine\caffeine\3.1.8\caffeine-3.1.8.jar
+[16:52:08] [Server thread/INFO]: [SpigotLibraryLoader] [OvRandomTeleport] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar
+[16:52:08] [Server thread/INFO]: [SpigotLibraryLoader] [OvRandomTeleport] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar
+[16:52:08] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'ItemEdit-3.1.5.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.ExceptionInInitializerError
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:129) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:116) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:336) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:547) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:125) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	... 9 more
+Caused by: java.lang.NumberFormatException: For input string: "raftbukkit"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at ItemEdit-3.1.5.jar//emanondev.itemedit.ItemEdit.<clinit>(ItemEdit.java:36) ~[?:?]
+	... 13 more
+[16:52:09] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loading 3 libraries... please wait
+[16:52:09] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[16:52:09] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar
+[16:52:09] [Server thread/INFO]: [SpigotLibraryLoader] [BattlePass] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar
+[16:52:09] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.0.3
+[16:52:09] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[16:52:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[16:52:09] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[16:52:09] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.139
+[16:52:10] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[16:52:10] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[16:52:10] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[16:52:10] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.1.0
+[16:52:10] [Server thread/INFO]: [TokenManager] Loading server plugin TokenManager v3.2.8
+[16:52:10] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[16:52:10] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[16:52:10] [Server thread/WARN]: [ProtocolLib] Version (MC: 26.1.2) has not yet been tested! Proceed with caution.
+[16:52:11] [Server thread/ERROR]: [ProtocolLib] Error initializing plugin 'ProtocolLib.jar' in folder 'plugins' (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at ProtocolLib.jar//com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.<clinit>(NetworkManagerInjector.java:39) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterManager.<init>(PacketFilterManager.java:111) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.protocol.injector.PacketFilterBuilder.build(PacketFilterBuilder.java:121) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.protocol.ProtocolLib.onLoad(ProtocolLib.java:183) ~[?:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:336) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.UnsupportedOperationException: Cannot define class using reflection: Unable to make protected java.lang.Package java.lang.ClassLoader.getPackage(java.lang.String) accessible: module java.base does not "opens java.lang" to unnamed module @698998c0
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection$Dispatcher$Initializable$Unavailable.defineClass(ClassInjector.java:472) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$UsingReflection.injectRaw(ClassInjector.java:284) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassInjector$AbstractBase.inject(ClassInjector.java:118) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default$InjectionDispatcher.load(ClassLoadingStrategy.java:241) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.loading.ClassLoadingStrategy$Default.load(ClassLoadingStrategy.java:148) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.TypeResolutionStrategy$Passive.initialize(TypeResolutionStrategy.java:101) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.net.bytebuddy.dynamic.DynamicType$Default$Unloaded.load(DynamicType.java:6325) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory.setupProxyPlayerConstructor(TemporaryPlayerFactory.java:159) ~[?:?]
+	at ProtocolLib.jar//com.comphenix.protocol.injector.temporary.TemporaryPlayerFactory.<clinit>(TemporaryPlayerFactory.java:47) ~[?:?]
+	... 13 more
+[16:52:11] [Server thread/INFO]: [CMI] Loading server plugin CMI v9.7.5.0
+[16:52:11] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.8.11
+[16:52:11] [Server thread/INFO]: [PlayerPoints] Loading server plugin PlayerPoints v3.2.7
+[16:52:11] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.3.0.36-DEV-SNAPSHOT
+[16:52:11] [Server thread/INFO]: [SCore] Loading server plugin SCore v42.42.42
+[16:52:11] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.13.1
+[16:52:11] [Server thread/INFO]: [NBTAPI] bStats disabled
+[16:52:11] [Server thread/INFO]: [NBTAPI] Update check disabled
+[16:52:11] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.1.2.build.65! Trying to find NMS support
+[16:52:11] [Server thread/WARN]: [NBTAPI] [NBTAPI] This Server-Version(26.1.2.build.65-stable) is not supported by this NBT-API Version(2.13.1) located in NBTAPI. The NBT-API will try to work as good as it can! Some functions may not work!
+[16:52:11] [Server thread/INFO]: [DevLib] Loading server plugin DevLib v3.1.5
+[16:52:11] [Server thread/INFO]: [BLib] Loading server plugin BLib v1.0.9
+[16:52:11] [Server thread/ERROR]: [BLib] Error initializing plugin 'BLib-1.0.9.jar' in folder 'plugins' (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at BLib-1.0.9.jar//org.by1337.blib.core.factory.BPacketEntityFactory.<clinit>(BPacketEntityFactory.java:51) ~[?:?]
+	at BLib-1.0.9.jar//org.by1337.blib.core.BApi.<clinit>(BApi.java:41) ~[?:?]
+	at BLib-1.0.9.jar//org.by1337.blib.core.BLib.onLoad(BLib.java:51) ~[?:?]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:59) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.ServerPluginProviderStorage.processProvided(ServerPluginProviderStorage.java:18) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:39) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:553) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:336) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.RuntimeException: org.by1337.blib.util.Version$UnsupportedVersionException: Cannot be detected server version! Version info: Bukkit.getVersion()='26.1.2-65-fd45f4b (MC: 26.1.2)', Bukkit.getBukkitVersion()='26.1.2.build.65-stable', Bukkit.getServer().getClass().getPackage().getName()='org.bukkit.craftbukkit', gameVersion='BGameVersion{id='26.1.2', name='26.1.2', stable=true, worldVersion=4790, protocolVersion=775, buildTime=Thu Apr 09 13:11:03 EEST 2026, releaseTarget='null'}'
+	at BLib-1.0.9.jar//org.by1337.blib.util.Version.<clinit>(Version.java:98) ~[?:?]
+	... 12 more
+Caused by: org.by1337.blib.util.Version$UnsupportedVersionException: Cannot be detected server version! Version info: Bukkit.getVersion()='26.1.2-65-fd45f4b (MC: 26.1.2)', Bukkit.getBukkitVersion()='26.1.2.build.65-stable', Bukkit.getServer().getClass().getPackage().getName()='org.bukkit.craftbukkit', gameVersion='BGameVersion{id='26.1.2', name='26.1.2', stable=true, worldVersion=4790, protocolVersion=775, buildTime=Thu Apr 09 13:11:03 EEST 2026, releaseTarget='null'}'
+	... 13 more
+[16:52:11] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.35-SNAPSHOT (build 3473)
+[16:52:11] [Server thread/INFO]: [VoidTeleporter] Loading server plugin VoidTeleporter v1.1.0
+[16:52:11] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[16:52:11] [Server thread/INFO]: [SimpleItems] Loading server plugin SimpleItems v0.3
+[16:52:11] [Server thread/INFO]: [PrimeSeller] Loading server plugin PrimeSeller v2.3.6
+[16:52:11] [Server thread/INFO]: [OvRandomTeleport] Loading server plugin OvRandomTeleport v1.5.2
+[16:52:11] [Server thread/INFO]: [ExecutableItems] Loading server plugin ExecutableItems v6.24.1.7
+[16:52:11] [Server thread/INFO]: [EnhancedEnchants] Loading server plugin EnhancedEnchants v1.6.1
+[16:52:11] [Server thread/INFO]: [DevMines] Loading server plugin DevMines v1.0.0
+[16:52:11] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.0-Release
+[16:52:11] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[16:52:11] [Server thread/INFO]: [CMIEInjector] Loading server plugin CMIEInjector v1.0.2.4
+[16:52:11] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.2.217
+[16:52:11] [Server thread/INFO]: [Chatty] Loading server plugin Chatty v2.19.14
+[16:52:11] [Server thread/INFO]: [BSpawner] Loading server plugin BSpawner v1.1.0
+[16:52:11] [Server thread/INFO]: [Blue Slime Core] Loading server plugin BlueSlimeCore v2.9.6.431
+[16:52:11] [Server thread/INFO]: [BetterTalismans] Loading server plugin BetterTalismans v0.6-BETA
+[16:52:11] [Server thread/INFO]: [BAuction] Loading server plugin BAuction v1.3.3
+[16:52:11] [Server thread/INFO]: [BAuction] Starting Metrics. Opt-out using the global bStats config.
+[16:52:11] [Server thread/INFO]: [BattlePass] Loading server plugin BattlePass v4.3.6
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Loading server plugin ajLeaderboards v2.9.0
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[16:52:11] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[16:52:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:52:11] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.139
+[16:52:12] [Server thread/INFO]:         __    
+[16:52:12] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.139
+[16:52:12] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[16:52:12] [Server thread/INFO]: 
+[16:52:12] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[16:52:12] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[16:52:12] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[16:52:12] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[16:52:13] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1767ms)
+[16:52:13] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:52:13] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:52:13] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:52:13] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[16:52:13] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[16:52:13] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[16:52:13] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[16:52:13] [Server thread/ERROR]: ******************************************************
+[16:52:13] [Server thread/ERROR]: *** ProtocolLib does not support plugin reloaders! ***
+[16:52:13] [Server thread/ERROR]: *** Please use the built-in reload command!        ***
+[16:52:13] [Server thread/ERROR]: ******************************************************
+[16:52:13] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[16:52:13] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.7
+[16:52:13] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[16:52:13] [Server thread/INFO]: [CMIEInjector] Enabling CMIEInjector v1.0.2.4
+[16:52:13] [Server thread/INFO]: [CMIEInjector] Injecting CMI Economy
+[16:52:13] [Server thread/INFO]: [CMIEInjector] [Economy] CMI Economy found: Waiting
+[16:52:13] [Server thread/INFO]: [Blue Slime Core] Enabling BlueSlimeCore v2.9.6.431
+[16:52:13] [Server thread/INFO]: [Blue Slime Core] Successfully loaded 2 language(s).
+[16:52:13] [Server thread/INFO]: [Blue Slime Core] [Update Checker] The update checking feature is disabled.
+[16:52:13] [Server thread/INFO]: [Blue Slime Core] [Update Checker] No plugin update information is available.
+[16:52:13] [Server thread/INFO]: [Blue Slime Core] [Update Checker] The update checking feature is disabled.
+[16:52:13] [Server thread/INFO]: [Blue Slime Core] [Update Checker] No plugin update information is available.
+[16:52:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:52:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:52:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:52:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:52:13] [Server thread/INFO]: Preparing level "world"
+[16:52:14] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Starting legacy CraftBukkit import for world 'world_nether' (minecraft:the_nether)
+[16:52:14] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from .\world_nether\DIM-1\region to .\world\dimensions\minecraft\the_nether\region
+[16:52:14] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from .\world_nether\DIM-1\poi to .\world\dimensions\minecraft\the_nether\poi
+[16:52:14] [Server thread/INFO]: Starting upgrade for world "world_nether"
+[16:52:14] [Server thread/INFO]: Upgrading progress: 2%
+[16:52:14] [Server thread/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[16:52:14] [Server thread/INFO]: Applying file structure changes for world "world_nether"
+[16:52:14] [Server thread/INFO]: Moving new hardlinked world to top level
+[16:52:14] [Server thread/INFO]: Start cleanup
+[16:52:14] [Server thread/INFO]: Moving out old world folder
+[16:52:14] [Server thread/INFO]: Moving in new world folder
+[16:52:14] [Server thread/INFO]: Done applying file structure changes for world "world_nether". Cleaning up outdated data...
+[16:52:14] [Server thread/INFO]: Upgrade done for world "world_nether"
+[16:52:14] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Completed legacy CraftBukkit import for world 'world_nether' (minecraft:the_nether)
+[16:52:14] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Starting legacy CraftBukkit import for world 'world_the_end' (minecraft:the_end)
+[16:52:14] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from .\world_the_end\DIM1\region to .\world\dimensions\minecraft\the_end\region
+[16:52:14] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from .\world_the_end\DIM1\poi to .\world\dimensions\minecraft\the_end\poi
+[16:52:14] [Server thread/INFO]: Starting upgrade for world "world_the_end"
+[16:52:14] [Server thread/INFO]: Upgrading progress: 2%
+[16:52:14] [Server thread/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[16:52:14] [Server thread/INFO]: Applying file structure changes for world "world_the_end"
+[16:52:14] [Server thread/INFO]: Moving new hardlinked world to top level
+[16:52:14] [Server thread/INFO]: Start cleanup
+[16:52:14] [Server thread/INFO]: Moving out old world folder
+[16:52:14] [Server thread/INFO]: Moving in new world folder
+[16:52:14] [Server thread/INFO]: Done applying file structure changes for world "world_the_end". Cleaning up outdated data...
+[16:52:14] [Server thread/INFO]: Upgrade done for world "world_the_end"
+[16:52:14] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Completed legacy CraftBukkit import for world 'world_the_end' (minecraft:the_end)
+[16:52:14] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[16:52:14] [Server thread/INFO]: Preparing spawn area: 100%
+[16:52:14] [Server thread/INFO]: Prepared spawn area in 1 ms
+[16:52:14] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[16:52:14] [Server thread/INFO]: Prepared spawn area in 13 ms
+[16:52:14] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[16:52:14] [Server thread/INFO]: Prepared spawn area in 13 ms
+[16:52:14] [Server thread/INFO]: Done preparing level "world" (1.134s)
+[16:52:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[16:52:15] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: Unknown (775) (775)
+[16:52:15] [Server thread/WARN]: [ViaVersion] ViaVersion does not have any compatible versions for this server version!
+[16:52:15] [Server thread/WARN]: [ViaVersion] Please remember that ViaVersion only adds support for versions newer than the server version.
+[16:52:15] [Server thread/WARN]: [ViaVersion] If you need support for older versions you may need to use one or more ViaVersion addons too.
+[16:52:15] [Server thread/WARN]: [ViaVersion] In that case please read the ViaVersion resource page carefully or use https://viaversion.com/setup
+[16:52:15] [Server thread/WARN]: [ViaVersion] and if you're still unsure, feel free to join our Discord-Server for further assistance.
+[16:52:15] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[16:52:15] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:52:15] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.1.0
+[16:52:15] [Server thread/ERROR]: Error occurred while enabling CMILib v1.5.1.0 (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at CMILib1.5.1.0.jar//net.Zrips.CMILib.Items.ItemManager.load(ItemManager.java:77) ~[?:?]
+	at CMILib1.5.1.0.jar//net.Zrips.CMILib.CMILib.onEnable(CMILib.java:216) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.Zrips.CMILib.Version.Version.toString()" because the return value of "net.Zrips.CMILib.Version.Version.getCurrent()" is null
+	at CMILib1.5.1.0.jar//net.Zrips.CMILib.Version.Version.<clinit>(Version.java:69) ~[?:?]
+	... 13 more
+[16:52:15] [Server thread/INFO]: [CMILib] Disabling CMILib v1.5.1.0
+[16:52:15] [Server thread/INFO]: [TokenManager] Enabling TokenManager v3.2.8
+[16:52:15] [Server thread/INFO]: [TokenManager] Loaded Config.
+[16:52:15] [Server thread/INFO]: [TokenManager] Loaded Lang.
+[16:52:15] [Server thread/INFO]: [TokenManager] ===============================================
+[16:52:15] [Server thread/INFO]: [TokenManager] TokenManager has detected your server as offline mode.
+[16:52:15] [Server thread/INFO]: [TokenManager] DataManager will operate with Usernames.
+[16:52:15] [Server thread/INFO]: [TokenManager] If your server is NOT in offline mode, please manually set online-mode in TokenManager's config.yml.
+[16:52:15] [Server thread/INFO]: [TokenManager] ===============================================
+[16:52:15] [Server thread/INFO]: [TokenManager] Loaded DataManager.
+[16:52:15] [Server thread/ERROR]: Error occurred while enabling TokenManager v3.2.8 (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.util.inventory.ItemUtil.lambda$static$40(ItemUtil.java:44) ~[?:?]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:803) ~[?:?]
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.util.inventory.ItemUtil.<clinit>(ItemUtil.java:41) ~[?:?]
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.shop.ShopConfig.loadValues(ShopConfig.java:89) ~[?:?]
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.util.config.AbstractConfiguration.handleLoad(AbstractConfiguration.java:59) ~[?:?]
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.TokenManagerPlugin.load(TokenManagerPlugin.java:123) ~[?:?]
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.TokenManagerPlugin.onEnable(TokenManagerPlugin.java:79) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at TokenManager-3.2.8.jar//me.realized.tokenmanager.util.compat.CompatUtil.<clinit>(CompatUtil.java:12) ~[?:?]
+	... 19 more
+[16:52:15] [Server thread/INFO]: [TokenManager] Disabling TokenManager v3.2.8
+[16:52:15] [Server thread/INFO]: [TokenManager] Saving data to file...
+[16:52:15] [Server thread/INFO]: [TokenManager] Save complete.
+[16:52:15] [Server thread/INFO]: [TokenManager] Unloaded DataManager.
+[16:52:15] [Server thread/INFO]: [TokenManager] Unloaded Lang.
+[16:52:15] [Server thread/INFO]: [TokenManager] Unloaded Config.
+[16:52:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[16:52:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[16:52:15] [Server thread/INFO]: [VoidGen] Generator settings "1" syntax is not valid. Using default values:
+[16:52:15] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[16:52:15] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Starting legacy CraftBukkit import for world 'lobby' (minecraft:lobby)
+[16:52:15] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from .\lobby\region to .\world\dimensions\minecraft\lobby\region
+[16:52:15] [Server thread/INFO]: [WorldMigrationSupport] Migrating world directory from .\lobby\poi to .\world\dimensions\minecraft\lobby\poi
+[16:52:15] [Server thread/INFO]: Starting upgrade for world "lobby"
+[16:52:15] [Server thread/INFO]: Upgrading progress: 2%
+[16:52:15] [Server thread/INFO]: File system capabilities: FileSystemCapabilities[atomicMove=true, hardLinks=true]
+[16:52:15] [Server thread/INFO]: Applying file structure changes for world "lobby"
+[16:52:15] [Server thread/INFO]: Moving new hardlinked world to top level
+[16:52:15] [Server thread/INFO]: Start cleanup
+[16:52:15] [Server thread/INFO]: Moving out old world folder
+[16:52:15] [Server thread/INFO]: Moving in new world folder
+[16:52:15] [Server thread/INFO]: Done applying file structure changes for world "lobby". Cleaning up outdated data...
+[16:52:15] [Server thread/INFO]: Upgrade done for world "lobby"
+[16:52:15] [Server thread/INFO]: [LegacyCraftBukkitWorldMigration] Completed legacy CraftBukkit import for world 'lobby' (minecraft:lobby)
+[16:52:15] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:lobby'...
+[16:52:15] [Server thread/INFO]: Prepared spawn area in 12 ms
+[16:52:15] [Server thread/INFO]: [VoidGen] Generator settings "1" syntax is not valid. Using default values:
+[16:52:15] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: lobby
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_the_end
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_nether
+[16:52:15] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[16:52:15] [Server thread/INFO]: [Multiverse-Core] 2 - World(s) loaded.
+[16:52:15] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[16:52:15] [Server thread/INFO]: [CMI] Enabling CMI v9.7.5.0
+[16:52:16] [Server thread/ERROR]: Error occurred while enabling CMI v9.7.5.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: net/Zrips/CMILib/Version/Version
+	at CMI-9.7.5.0.jar//com.Zrips.CMI.CMI.onEnable(CMI.java:1358) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: net.Zrips.CMILib.Version.Version
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 12 more
+[16:52:16] [Server thread/INFO]: [CMI] Disabling CMI v9.7.5.0
+[16:52:16] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.11
+[16:52:16] [Server thread/ERROR]: [DecentHolograms] Unsupported server version detected: 26.1.2-65-fd45f4b (MC: 26.1.2)
+[16:52:16] [Server thread/ERROR]: [DecentHolograms] Plugin will now be disabled.
+[16:52:16] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.8.11
+[16:52:16] [Server thread/INFO]: [SCore] Enabling SCore v42.42.42
+[16:52:16] [Server thread/INFO]: ================ SCore ================
+[16:52:16] [Server thread/INFO]: SCore Version of the server 26.1.2-65-fd45f4b (MC: 26.1.2) !
+[16:52:16] [Server thread/INFO]: SCore ExecutableItems hooked !  (6.24.1.7) Load After
+[16:52:16] [Server thread/INFO]: SCore PlaceholderAPI hooked !  (2.11.6)  Load Before
+[16:52:16] [Server thread/INFO]: SCore Vault hooked !  (1.7.3-b131)  Load Before
+[16:52:16] [Server thread/INFO]: SCore Multiverse-Core hooked !  (4.3.1-b861)  Load Before
+[16:52:16] [Server thread/INFO]: SCore ProtocolLib hooked !
+[16:52:16] [Server thread/ERROR]: Error occurred while enabling SCore v42.42.42 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/comphenix/protocol/ProtocolLibrary
+	at SCore.jar//com.ssomar.score.SCore.loadDependency(SCore.java:425) ~[?:?]
+	at SCore.jar//com.ssomar.score.SCore.onEnable(SCore.java:314) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.ProtocolLibrary
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 13 more
+[16:52:16] [Server thread/INFO]: [SCore] Disabling SCore v42.42.42
+[16:52:16] [Server thread/INFO]: SCore Locale setup: EN
+[16:52:16] [Server thread/INFO]: SCore Save UsagePerDay....
+[16:52:16] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[16:52:16] [Server thread/ERROR]: [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: useperday)
+[16:52:16] [Server thread/ERROR]: [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: useperday)
+[16:52:16] [Server thread/ERROR]: [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: useperday)
+[16:52:16] [Server thread/INFO]: SCore Save UsagePerDay done !
+[16:52:16] [Server thread/INFO]: SCore Save Commands...
+[16:52:16] [Server thread/INFO]: [SCore] [STDOUT] [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: commands_player)
+[16:52:16] [Server thread/WARN]: Nag author(s): '[Ssomar]' of 'SCore v42.42.42' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[16:52:16] [Server thread/INFO]: [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: commands_player)
+[16:52:16] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: commands_player)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:1150)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.prepare(DB.java:264)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.data.PlayerCommandsQuery.insertCommand(PlayerCommandsQuery.java:63)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.data.PlayerCommandsQuery.insertCommand(PlayerCommandsQuery.java:50)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.commands.runnable.CommandsHandler.onDisable(CommandsHandler.java:161)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.SCore.onDisable(SCore.java:532)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
+[16:52:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[16:52:16] [Server thread/INFO]: [SCore] [STDOUT] [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: commands_entity)
+[16:52:16] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: commands_entity)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:1150)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.prepare(DB.java:264)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.data.EntityCommandsQuery.insertCommand(EntityCommandsQuery.java:46)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.commands.runnable.CommandsHandler.onDisable(CommandsHandler.java:164)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.SCore.onDisable(SCore.java:532)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
+[16:52:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[16:52:16] [Server thread/INFO]: [SCore] [STDOUT] [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: commands_block)
+[16:52:16] [Server thread/WARN]: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: commands_block)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1179)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.newSQLException(DB.java:1190)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.throwex(DB.java:1150)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.DB.prepare(DB.java:264)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225)
+[16:52:16] [Server thread/WARN]: 	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.data.BlockCommandsQuery.insertCommand(BlockCommandsQuery.java:49)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.commands.runnable.CommandsHandler.onDisable(CommandsHandler.java:167)
+[16:52:16] [Server thread/WARN]: 	at SCore.jar//com.ssomar.score.SCore.onDisable(SCore.java:532)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211)
+[16:52:16] [Server thread/WARN]: 	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637)
+[16:52:16] [Server thread/WARN]: 	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291)
+[16:52:16] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304)
+[16:52:16] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1474)
+[16:52:16] [Server thread/INFO]: SCore Save Commands done !
+[16:52:16] [Server thread/INFO]: SCore Save Cooldowns...
+[16:52:16] [Server thread/INFO]: [SCore] [STDOUT] [SCore] [SQLITE_ERROR] SQL error or missing database (no such table: cooldows)
+[16:52:16] [Server thread/INFO]: SCore Save Cooldowns done !
+[16:52:16] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.13.1
+[16:52:16] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[16:52:16] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'a' in 'CompoundTag' Args: [class java.lang.String, class java.util.UUID] Enum: COMPOUND_SET_UUID
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'c' in 'CompoundTag' Args: [class java.lang.String, int] Enum: COMPOUND_GET_LIST
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'a' in 'CompoundTag' Args: [class java.lang.String] Enum: COMPOUND_GET_UUID
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'd' in 'CompoundTag' Args: [class java.lang.String] Enum: COMPOUND_GET_TYPE
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'e' in 'CompoundTag' Args: [] Enum: COMPOUND_GET_KEYS
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'e' in 'CompoundTag' Args: [] Enum: LISTCOMPOUND_GET_KEYS
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'g' in 'Entity' Args: [class net.minecraft.nbt.CompoundTag] Enum: NMS_ENTITY_SET_NBT
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'f' in 'Entity' Args: [class net.minecraft.nbt.CompoundTag] Enum: NMS_ENTITY_GET_NBT
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'a' in 'TagParser' Args: [class java.lang.String] Enum: PARSE_NBT
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'Unmappedsave(net.minecraft.core.HolderLookup$Provider)' in 'ItemStack' Args: [interface net.minecraft.core.HolderLookup$Provider] Enum: NMSITEM_SAVE_MODERN
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'UnmappedparseOptional(net.minecraft.core.HolderLookup$Provider,net.minecraft.nbt.CompoundTag)' in 'ItemStack' Args: [interface net.minecraft.core.HolderLookup$Provider, class net.minecraft.nbt.CompoundTag] Enum: NMSITEM_LOAD
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'UnmappedsaveWithId(net.minecraft.core.HolderLookup$Provider)' in 'BlockEntity' Args: [interface net.minecraft.core.HolderLookup$Provider] Enum: TILEENTITY_GET_NBT_1205
+[16:52:16] [Server thread/WARN]: [NBTAPI] [NBTAPI] Unable to find the method 'UnmappedloadWithComponents(net.minecraft.nbt.CompoundTag,net.minecraft.core.HolderLookup$Provider)' in 'BlockEntity' Args: [class net.minecraft.nbt.CompoundTag, interface net.minecraft.core.HolderLookup$Provider] Enum: TILEENTITY_SET_NBT_1205
+[16:52:16] [Server thread/INFO]: [NBTAPI] Methods:
+[16:52:16] [Server thread/WARN]: [NBTAPI] COMPOUND_SET_UUID did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] COMPOUND_GET_LIST did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] COMPOUND_GET_UUID did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] COMPOUND_GET_TYPE did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] COMPOUND_GET_KEYS did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] LISTCOMPOUND_GET_KEYS did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] NMS_ENTITY_SET_NBT did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] NMS_ENTITY_GET_NBT did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] PARSE_NBT did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] NMSITEM_SAVE_MODERN did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] NMSITEM_LOAD did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] TILEENTITY_GET_NBT_1205 did not find the method!
+[16:52:16] [Server thread/WARN]: [NBTAPI] TILEENTITY_SET_NBT_1205 did not find the method!
+[16:52:16] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[16:52:16] [Server thread/ERROR]: Error occurred while enabling NBTAPI v2.13.1 (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at item-nbt-api-plugin-2.13.1.jar//de.tr7zw.nbtapi.NBTCompound.setString(NBTCompound.java:176) ~[?:?]
+	at item-nbt-api-plugin-2.13.1.jar//de.tr7zw.nbtapi.plugin.tests.compounds.GetterSetterTest.test(GetterSetterTest.java:36) ~[?:?]
+	at item-nbt-api-plugin-2.13.1.jar//de.tr7zw.nbtapi.plugin.NBTAPI.onEnable(NBTAPI.java:193) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:220) ~[?:?]
+	at java.base/java.lang.Class.getDeclaredField(Class.java:2379) ~[?:?]
+	at item-nbt-api-plugin-2.13.1.jar//de.tr7zw.nbtapi.NBTReflectionUtil.<clinit>(NBTReflectionUtil.java:59) ~[?:?]
+	... 14 more
+[16:52:16] [Server thread/INFO]: [NBTAPI] Disabling NBTAPI v2.13.1
+[16:52:16] [Server thread/INFO]: [DevLib] Enabling DevLib v3.1.5
+[16:52:16] [Server thread/ERROR]: Error occurred while enabling DevLib v3.1.5 (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at DevLib-3.1.5.jar//devlib.bukkit.DevLibBukkit.onEnable(DevLibBukkit.kt:19) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.NumberFormatException: For input string: "CraftSerer"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:565) ~[?:?]
+	at java.base/java.lang.Integer.parseInt(Integer.java:662) ~[?:?]
+	at DevLib-3.1.5.jar//devlib.bukkit.util.MinecraftReflection.<clinit>(MinecraftReflection.java:37) ~[?:?]
+	... 12 more
+[16:52:16] [Server thread/INFO]: [DevLib] Disabling DevLib v3.1.5
+[16:52:16] [Server thread/INFO]: [BLib] Enabling BLib v1.0.9
+[16:52:16] [Server thread/ERROR]: Error occurred while enabling BLib v1.0.9 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "org.by1337.blib.core.BApi.getMessage()" because "this.api" is null
+	at BLib-1.0.9.jar//org.by1337.blib.core.BLib.init(BLib.java:88) ~[?:?]
+	at BLib-1.0.9.jar//org.by1337.blib.core.BLib.onEnable(BLib.java:68) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:16] [Server thread/INFO]: [BLib] Disabling BLib v1.0.9
+[16:52:16] [Server thread/ERROR]: Error occurred while disabling BLib v1.0.9
+java.lang.NullPointerException: Cannot invoke "org.by1337.blib.fastutil.FastUtilApi.onDisable()" because "this.fastUtilApi" is null
+	at BLib-1.0.9.jar//org.by1337.blib.core.BLib.onDisable(BLib.java:83) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:16] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3473)
+[16:52:16] [Server thread/INFO]: [Citizens] Loading external libraries
+[16:52:16] [Server thread/INFO]: [Citizens] Unable to load Adventure, chat components will not work
+[16:52:17] [Server thread/INFO]: [Citizens] Detected system language [[ru]]. If youd like you can contribute to Citizens translations via our Discord! https://discord.gg/Q6pZGSR
+[16:52:17] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[16:52:17] [Server thread/ERROR]: Error occurred while enabling Citizens v2.0.35-SNAPSHOT (build 3473) (Is it up to date?)
+java.lang.IllegalStateException
+	at Citizens-2.0.35-b3473.jar//net.citizensnpcs.api.util.SpigotUtil.getMinecraftPackage(SpigotUtil.java:164) ~[?:?]
+	at Citizens-2.0.35-b3473.jar//net.citizensnpcs.Citizens.onEnable(Citizens.java:373) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:17] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.35-SNAPSHOT (build 3473)
+[16:52:17] [Server thread/INFO]: [VoidTeleporter] Enabling VoidTeleporter v1.1.0
+[16:52:17] [Server thread/INFO]: [VoidTeleporter] §5§lVoid§9§lTeleporter§r §bby Ivainge §2Successful Enabled.
+[16:52:17] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[16:52:17] [Server thread/ERROR]: Error occurred while enabling TAB v4.1.2 (Is it up to date?)
+java.lang.ExceptionInInitializerError
+	at TAB v4.1.2.jar//me.neznamy.tab.platforms.bukkit.nms.DataWatcher.getArmorStandFlagsPosition(DataWatcher.java:55) ~[?:?]
+	at TAB v4.1.2.jar//me.neznamy.tab.platforms.bukkit.nms.DataWatcher.<clinit>(DataWatcher.java:40) ~[?:?]
+	at TAB v4.1.2.jar//me.neznamy.tab.platforms.bukkit.BukkitTAB.isVersionSupported(BukkitTAB.java:43) ~[?:?]
+	at TAB v4.1.2.jar//me.neznamy.tab.platforms.bukkit.BukkitTAB.onEnable(BukkitTAB.java:20) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at TAB v4.1.2.jar//me.neznamy.tab.platforms.bukkit.nms.BukkitReflection.<clinit>(BukkitReflection.java:14) ~[?:?]
+	... 15 more
+[16:52:17] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[16:52:17] [Server thread/INFO]: [SimpleItems] Enabling SimpleItems v0.3
+[16:52:17] [Server thread/INFO]: [PrimeSeller] Enabling PrimeSeller v2.3.6
+[16:52:17] [Server thread/INFO]: PrimeSeller | ██████╗░██████╗░██╗███╗░░░███╗███████╗░██████╗███████╗██╗░░░░░██╗░░░░░███████╗██████╗░
+[16:52:17] [Server thread/INFO]: PrimeSeller | ██╔══██╗██╔══██╗██║████╗░████║██╔════╝██╔════╝██╔════╝██║░░░░░██║░░░░░██╔════╝██╔══██╗
+[16:52:17] [Server thread/INFO]: PrimeSeller | ██████╔╝██████╔╝██║██╔████╔██║█████╗░░╚█████╗░█████╗░░██║░░░░░██║░░░░░█████╗░░██████╔╝
+[16:52:17] [Server thread/INFO]: PrimeSeller | ██╔═══╝░██╔══██╗██║██║╚██╔╝██║██╔══╝░░░╚═══██╗██╔══╝░░██║░░░░░██║░░░░░██╔══╝░░██╔══██╗
+[16:52:17] [Server thread/INFO]: PrimeSeller | ██║░░░░░██║░░██║██║██║░╚═╝░██║███████╗██████╔╝███████╗███████╗███████╗███████╗██║░░██║
+[16:52:17] [Server thread/INFO]: PrimeSeller | ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚═╝░░░░░╚═╝╚══════╝╚═════╝░╚══════╝╚══════╝╚══════╝╚══════╝╚═╝░░╚═╝
+[16:52:17] [Server thread/INFO]: PrimeSeller | ▀█░█▀ █▀▀ █▀▀█ █▀▀ ░▀░ █▀▀█ █▀▀▄ 
+[16:52:17] [Server thread/INFO]: PrimeSeller | ░█▄█░ █▀▀ █▄▄▀ ▀▀█ ▀█▀ █░░█ █░░█ v2.3.6 | Developer: Telegram: @byteswing
+[16:52:17] [Server thread/INFO]: PrimeSeller | ░░▀░░ ▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░▀ 
+[16:52:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: primeseller [1.0]
+[16:52:17] [Server thread/INFO]: [OvRandomTeleport] Enabling OvRandomTeleport v1.5.2
+[16:52:17] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v6.24.1.7
+[16:52:17] [Server thread/ERROR]: Error occurred while enabling ExecutableItems v6.24.1.7 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/ssomar/score/utils/logging/Utils
+	at ExecutableItems_Prem-6.24.1.7.jar//com.ssomar.executableitems.ExecutableItems.sendPluginName(ExecutableItems.java:225) ~[?:?]
+	at ExecutableItems_Prem-6.24.1.7.jar//com.ssomar.executableitems.ExecutableItems.onEnable(ExecutableItems.java:58) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.ssomar.score.utils.logging.Utils
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 13 more
+[16:52:17] [Server thread/INFO]: [ExecutableItems] Disabling ExecutableItems v6.24.1.7
+[16:52:17] [Server thread/ERROR]: Error occurred while disabling ExecutableItems v6.24.1.7
+java.lang.NoClassDefFoundError: com/ssomar/score/SCore
+	at ExecutableItems_Prem-6.24.1.7.jar//com.ssomar.executableitems.ExecutableItems.onDisable(ExecutableItems.java:231) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.ssomar.score.SCore
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 15 more
+[16:52:17] [Server thread/INFO]: [EnhancedEnchants] Enabling EnhancedEnchants v1.6.1
+[16:52:17] [Server thread/INFO]: [EnhancedEnchants] [Warning] Enchant in config sweeping does not exist.
+[16:52:17] [Server thread/INFO]: [DevMines] Enabling DevMines v1.0.0
+[16:52:17] [Server thread/ERROR]: Error occurred while enabling DevMines v1.0.0 (Is it up to date?)
+java.lang.IllegalStateException: The plugin classloader for DevLib has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at DevLib-3.1.5.jar//devlib.bukkit.DevPluginBukkit.onEnable(DevPluginBukkit.kt:27) ~[?:?]
+	at DevMines-1.0.0.jar//devmines.DevMines.onEnable(DevMines.kt:27) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 17 more
+[16:52:17] [Server thread/INFO]: [DevMines] Disabling DevMines v1.0.0
+[16:52:17] [Server thread/ERROR]: Error occurred while disabling DevMines v1.0.0
+java.lang.NoClassDefFoundError: devlib/shade/kotlin/jvm/internal/Intrinsics
+	at DevMines-1.0.0.jar//devmines.DevMines.getListener(DevMines.kt:20) ~[?:?]
+	at DevMines-1.0.0.jar//devmines.DevMines.onDisable(DevMines.kt:68) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: devlib.shade.kotlin.jvm.internal.Intrinsics
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 16 more
+[16:52:17] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
+[16:52:17] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[16:52:17] [Server thread/INFO]: [DeluxeMenus] 19 GUI menus loaded!
+[16:52:17] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[16:52:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
+[16:52:17] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.217
+[16:52:17] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.14
+[16:52:17] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[16:52:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [2.19.14]
+[16:52:17] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[16:52:17] [Server thread/INFO]: [BSpawner] Enabling BSpawner v1.1.0
+[16:52:17] [Server thread/INFO]: Loaded 31 spawners!
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Enabling BetterTalismans v0.6-BETA
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Inventory title with support for more than 32 characters. Skipping..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Hex colors are available! Ready for RGB..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Old constructor for HoverEvent found! Using it..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] New sendTitle method found! Using it..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] New setUnbreakable method found! Using it..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] New isUnbreakable method found! Using it..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] ================================================================================
+[16:52:17] [Server thread/INFO]: [BetterTalismans] This plugin requires NBTAPI. It's needed for this plugin to work.
+[16:52:17] [Server thread/INFO]: [BetterTalismans] NBTAPI couldn't be found in your server. Disabling plugin..
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Download latest version of NBTAPI in https://alonsoaliaga.com/NBTAPI
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Please install NBTAPI to use this plugin or it won't work.
+[16:52:17] [Server thread/INFO]: [BetterTalismans] For more questions join us on https://alonsoaliaga.com/discord
+[16:52:17] [Server thread/INFO]: [BetterTalismans] ================================================================================
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Disabling BetterTalismans v0.6-BETA
+[16:52:17] [Server thread/INFO]:  
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Plugin has been disabled!
+[16:52:17] [Server thread/INFO]: [BetterTalismans] Thank you for using my plugin!
+[16:52:17] [Server thread/INFO]:  
+[16:52:17] [Server thread/INFO]: [BAuction] Enabling BAuction v1.3.3
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: checkUpdate
+java.lang.IllegalStateException: The plugin classloader for BLib has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BLib-1.0.9.jar//org.by1337.blib.configuration.YamlContext.getAsInteger(YamlContext.java:90) ~[?:?]
+	at BLib-1.0.9.jar//org.by1337.blib.configuration.YamlContext.getAsInteger(YamlContext.java:95) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.datafix.UpdateManager.checkUpdate(UpdateManager.java:30) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 20 more
+[16:52:17] [Server thread/INFO]: [BAuction] Disabling BAuction v1.3.3
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: enable BMenuApi
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.bmenu.BMenuApi.enable(BMenuApi.java:27) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load MenuLoader
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$0(Main.java:120) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load db cfg
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$1(Main.java:125) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: registerAdapters
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.registerAdapters(Main.java:280) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load UniqueNameGenerator
+java.lang.IllegalStateException: The plugin classloader for BLib has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BLib-1.0.9.jar//org.by1337.blib.configuration.YamlContext.getAsInteger(YamlContext.java:90) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$2(Main.java:132) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 19 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load cfg
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$3(Main.java:139) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load assetsManager
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$4(Main.java:142) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load lang
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$5(Main.java:145) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load logger
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$6(Main.java:148) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load event manager
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$7(Main.java:153) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load time util
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$8(Main.java:156) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load TrieManager
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$9(Main.java:159) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load econ
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$10(Main.java:163) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load PAPI hook
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$11(Main.java:178) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load black list
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.lambda$initEnablePipeline$12(Main.java:182) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: load db
+java.lang.IllegalStateException: The plugin classloader for BAuction has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.loadDb(Main.java:245) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/ERROR]: [BAuction] An error occurred while enabling on the handler: init commands
+java.lang.IllegalStateException: The plugin classloader for BLib has thrown a zip file error.
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:228) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:557) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:180) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.initCommand(Main.java:324) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.util.plugin.PluginEnablePipeline.onEnable(PluginEnablePipeline.java:49) ~[?:?]
+	at BAuction-1.3.3-ru.jar//org.by1337.bauction.Main.onEnable(Main.java:221) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.IllegalStateException: zip file closed
+	at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:826) ~[?:?]
+	at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:290) ~[?:?]
+	at java.base/java.util.jar.JarFile.getEntry(JarFile.java:505) ~[?:?]
+	at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:460) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:223) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	... 18 more
+[16:52:17] [Server thread/INFO]: [BattlePass] Enabling BattlePass v4.3.6
+[16:52:17] [Server thread/ERROR]: Error occurred while enabling BattlePass v4.3.6 (Is it up to date?)
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at BattlePass-4.3.6.jar//net.advancedplugins.bp.impl.utils.nbt.utils.MinecraftVersion.init(MinecraftVersion.java:57) ~[?:?]
+	at BattlePass-4.3.6.jar//io.github.battlepass.BattlePlugin.onEnable(BattlePlugin.java:117) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:17] [Server thread/INFO]: [BattlePass] Disabling BattlePass v4.3.6
+[16:52:17] [Server thread/ERROR]: Error occurred while disabling BattlePass v4.3.6
+java.lang.NullPointerException: Cannot invoke "io.github.battlepass.cache.UserCache.save(boolean)" because "this.y" is null
+	at BattlePass-4.3.6.jar//io.github.battlepass.BattlePlugin.unload(BattlePlugin.java:354) ~[?:?]
+	at BattlePass-4.3.6.jar//io.github.battlepass.BattlePlugin.onDisable(BattlePlugin.java:144) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:285) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:242) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:211) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:673) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:382) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1291) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:52:17] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[16:52:18] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[16:52:18] [Server thread/INFO]: [ajLeaderboards] Loaded 3 boards
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[16:52:18] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[16:52:18] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:52:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:52:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:52:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:52:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:lobby
+[16:52:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:52:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:52:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:52:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[16:52:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:52:18] [Server thread/INFO]: Running delayed init tasks
+[16:52:18] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.2.7]
+[16:52:18] [Server thread/INFO]: Done (52.784s)! For help, type "help"
+[16:52:18] [Craft Scheduler Thread - 3 - PlayerPoints/INFO]: [RoseGarden] An update for PlayerPoints (v3.3.4) is available! You are running v3.2.7.
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: expirytime [1.2]
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.1]
+[16:52:18] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 4 scripts loaded!
+[16:52:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: javascript [2.1.2]
+[16:52:18] [Server thread/INFO]: 8 placeholder hook(s) registered! 4 placeholder hook(s) have an update available.
+[16:52:20] [pool-18-thread-1/INFO]: [ajLeaderboards] An update is available! (2.11.0) Run /ajLeaderboards update to download it!
+[16:53:00] [User Authenticator #0/INFO]: UUID of player TwixHass is 6957ff7a-e606-3097-9263-c664d7c0e1a6
+[16:53:00] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, DeluxeMenus]
+[16:53:01] [Server thread/INFO]: TwixHass joined the game
+[16:53:01] [Server thread/INFO]: TwixHass[/127.0.0.1:64384] logged in with entity id 1 at ([minecraft:lobby]327.5, 44.0, 107.5)
+[16:53:39] [Server thread/INFO]: TwixHass issued server command: /ah
+[16:53:39] [Server thread/ERROR]: Command exception: /ah
+org.bukkit.command.CommandException: Cannot execute command 'ah' in plugin BAuction v1.3.3 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2428) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$0(ServerGamePacketListenerImpl.java:2401) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:207) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1559) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:194) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:182) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1539) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1533) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.recordTaskExecutionTimeWhileWaiting(MinecraftServer.java:1263) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1379) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:54:42] [Server thread/INFO]: ℹ Server Plugins (39):
+[16:54:42] [Server thread/INFO]: Bukkit Plugins:
+[16:54:42] [Server thread/INFO]:  - ajLeaderboards, BAirDrop, BattlePass, BAuction, BetterTalismans, BLib, BlueSlimeCore, BSpawner, Chatty, Chunky
+[16:54:42] [Server thread/INFO]:  Citizens, CMI, CMIEInjector, CMILib, DecentHolograms, DeluxeMenus, DevLib, DevMines, EnhancedEnchants, ExecutableItems
+[16:54:42] [Server thread/INFO]:  ItemEdit, LuckPerms, Multiverse-Core, NBTAPI, OvRandomTeleport, PlaceholderAPI, PlayerPoints, PrimeSeller, ProtectionStones, ProtocolLib
+[16:54:42] [Server thread/INFO]:  SCore, SimpleItems, TAB, TokenManager, Vault, ViaVersion, VoidGen, VoidTeleporter, WorldEdit
+[16:55:32] [Server thread/INFO]: TwixHass issued server command: /holo list
+[16:55:37] [Server thread/INFO]: Unknown or incomplete command. See below for error
+holo list<--[HERE]
+[16:58:02] [Server thread/ERROR]: Command exception: /cmi reload
+org.bukkit.command.CommandException: Cannot execute command 'cmi' in plugin CMI v9.7.5.0 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:355) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:622) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:578) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1862) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1645) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:444) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1703) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1373) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:58:02] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[16:58:05] [Server thread/ERROR]: Command exception: /cmi reload
+org.bukkit.command.CommandException: Cannot execute command 'cmi' in plugin CMI v9.7.5.0 - plugin is disabled.
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:37) ~[paper-api-26.1.2.build.65-stable.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:104) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:468) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:376) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:355) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:622) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:578) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1862) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1645) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:444) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.processPacketsAndTick(MinecraftServer.java:1703) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1373) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-65-fd45f4b]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+[16:58:05] [Server thread/INFO]: An unexpected error occurred trying to execute that command
+[16:58:18] [Server thread/INFO]: Reloading!
+[16:58:18] [Server thread/INFO]: Loaded 1515 recipes
+[16:58:18] [Server thread/INFO]: Loaded 1617 advancements
+[16:58:24] [Server thread/INFO]: TwixHass lost connection: Disconnected
+[16:58:24] [Server thread/INFO]: TwixHass left the game
+[16:58:26] [User Authenticator #1/INFO]: UUID of player TwixHass is 6957ff7a-e606-3097-9263-c664d7c0e1a6
+[16:58:27] [Server thread/INFO]: TwixHass joined the game
+[16:58:27] [Server thread/INFO]: TwixHass[/127.0.0.1:57154] logged in with entity id 2 at ([minecraft:lobby]311.30912384536964, 44.0, 159.49851647581767)
+[17:00:42] [Server thread/INFO]: Reloading!
+[17:00:42] [Server thread/INFO]: Loaded 1515 recipes
+[17:00:42] [Server thread/INFO]: Loaded 1617 advancements
+[17:00:45] [Server thread/INFO]: TwixHass lost connection: Disconnected
+[17:00:45] [Server thread/INFO]: TwixHass left the game
+[17:00:47] [User Authenticator #2/INFO]: UUID of player TwixHass is 6957ff7a-e606-3097-9263-c664d7c0e1a6
+[17:00:47] [Server thread/INFO]: TwixHass joined the game
+[17:00:47] [Server thread/INFO]: TwixHass[/127.0.0.1:64475] logged in with entity id 3 at ([minecraft:lobby]319.2358793496556, 45.0, 166.6686802871482)
+[17:02:39] [Server thread/INFO]: Reloading!
+[17:02:39] [Server thread/INFO]: Loaded 1515 recipes
+[17:02:40] [Server thread/INFO]: Loaded 1617 advancements
+[17:02:41] [Server thread/INFO]: TwixHass lost connection: Disconnected
+[17:02:41] [Server thread/INFO]: TwixHass left the game
+[17:02:43] [User Authenticator #3/INFO]: UUID of player TwixHass is 6957ff7a-e606-3097-9263-c664d7c0e1a6
+[17:02:43] [Server thread/INFO]: TwixHass joined the game
+[17:02:43] [Server thread/INFO]: TwixHass[/127.0.0.1:61409] logged in with entity id 4 at ([minecraft:lobby]324.22167170978105, 44.0, 156.519248170405)
+[17:02:51] [Server thread/INFO]: TwixHass lost connection: Disconnected
+[17:02:51] [Server thread/INFO]: TwixHass left the game

@@ -1,0 +1,491 @@
+[14:08:21] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[14:08:22] [Worker-Main-5/INFO]: Loaded 7 recipes
+[14:08:24] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[14:08:24] [Server thread/INFO]: Loading properties
+[14:08:24] [Server thread/INFO]: This server is running Purpur version git-Purpur-1171 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[14:08:24] [Server thread/INFO]: Debug logging is disabled
+[14:08:24] [Server thread/INFO]: Using 6 threads for Netty based IO
+[14:08:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:08:24] [Server thread/INFO]: Default game type: SURVIVAL
+[14:08:24] [Server thread/INFO]: Generating keypair
+[14:08:25] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[14:08:25] [Server thread/INFO]: Using default channel type
+[14:08:25] [Server thread/INFO]: Tuinity: Using Java 11 compression from Velocity.
+[14:08:25] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[14:08:27] [Server thread/ERROR]: Could not load 'plugins\BAirDrop-1.0.9.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldGuard]. Please download and install these plugins to run 'BAirDrop'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:279) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:293) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[14:08:27] [Server thread/ERROR]: Could not load 'plugins\ProtectionStones-2.8.5.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldGuard]. Please download and install these plugins to run 'ProtectionStones'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:279) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:293) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.Thread.run(Thread.java:842) [?:?]
+[14:08:28] [Server thread/INFO]: [BattlePass] Loading 3 libraries... please wait
+[14:08:28] [Server thread/INFO]: [BattlePass] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[14:08:28] [Server thread/INFO]: [BattlePass] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\com\zaxxer\HikariCP\3.4.5\HikariCP-3.4.5.jar
+[14:08:28] [Server thread/INFO]: [BattlePass] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar
+[14:08:28] [Server thread/INFO]: [OvRandomTeleport] Loading 1 libraries... please wait
+[14:08:28] [Server thread/INFO]: [OvRandomTeleport] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\com\github\ben-manes\caffeine\caffeine\3.1.8\caffeine-3.1.8.jar
+[14:08:28] [Server thread/INFO]: [OvRandomTeleport] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\org\checkerframework\checker-qual\3.37.0\checker-qual-3.37.0.jar
+[14:08:28] [Server thread/INFO]: [OvRandomTeleport] Loaded library D:\Download\Hyper Anarchy McDev-20260520T180929Z-3-001\Hyper Anarchy McDev\libraries\com\google\errorprone\error_prone_annotations\2.21.1\error_prone_annotations-2.21.1.jar
+[14:08:28] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
+[14:08:28] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.217
+[14:08:28] [Server thread/INFO]: [VoidTeleporter] Loading VoidTeleporter v1.1.0
+[14:08:28] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[14:08:28] [Server thread/INFO]: [CMILib] Loading CMILib v1.5.1.0
+[14:08:28] [Server thread/INFO]: [spark] Loading spark v1.10.71
+[14:08:28] [Server thread/INFO]: [CMI] Loading CMI v9.7.5.0
+[14:08:28] [Server thread/INFO]: [Blue Slime Core] Loading BlueSlimeCore v2.9.6.431
+[14:08:28] [Server thread/INFO]: [SimpleItems] Loading SimpleItems v0.3
+[14:08:28] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v5.0.3
+[14:08:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.0.3 is now loaded. Registering protocol transformers and injecting...
+[14:08:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:08:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:08:30] [Server thread/INFO]: [EnhancedEnchants] Loading EnhancedEnchants v1.6.1
+[14:08:30] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.13.1
+[14:08:30] [Server thread/INFO]: [NBTAPI] bStats disabled
+[14:08:30] [Server thread/INFO]: [NBTAPI] Update check disabled
+[14:08:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_16_R3! Trying to find NMS support
+[14:08:30] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_16_R3' loaded!
+[14:08:30] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.139
+[14:08:31] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.11
+[14:08:31] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.2.0-SNAPSHOT-679
+[14:08:32] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[14:08:32] [Server thread/INFO]: [TokenManager] Loading TokenManager v3.2.8
+[14:08:32] [Server thread/INFO]: [Chatty] Loading Chatty v2.19.14
+[14:08:32] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.17+6544-56d0383
+[14:08:32] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@62e7599b]
+[14:08:32] [Server thread/INFO]: [BetterTalismans] Loading BetterTalismans v0.6-BETA
+[14:08:32] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.2.7
+[14:08:32] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.3.0.36-DEV-SNAPSHOT
+[14:08:32] [Server thread/INFO]: [DevLib] Loading DevLib v3.1.5
+[14:08:32] [Server thread/INFO]: [ItemEdit] Loading ItemEdit v3.1.5
+[14:08:32] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[14:08:32] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.35-SNAPSHOT (build 3473)
+[14:08:32] [Server thread/INFO]: [DevMines] Loading DevMines v1.0.0
+[14:08:32] [Server thread/INFO]: [BSpawner] Loading BSpawner v1.1.0
+[14:08:32] [Server thread/INFO]: [PrimeSeller] Loading PrimeSeller v2.3.6
+[14:08:32] [Server thread/INFO]: [ajLeaderboards] Loading ajLeaderboards v2.9.0
+[14:08:32] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[14:08:32] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for jar-relocator
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for jar-relocator
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for asm-commons
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for asm-commons
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for gson
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for gson
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for HikariCP
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for HikariCP
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for slf4j-api
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for slf4j-api
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for h2
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for h2
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okhttp
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okhttp
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio
+[14:08:33] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for okio-jvm
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Checksum matched for okio-jvm
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk8
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk8
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-common
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-common
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for annotations
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Checksum matched for annotations
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Verifying checksum for kotlin-stdlib-jdk7
+[14:08:34] [Server thread/INFO]: [ajLeaderboards] Checksum matched for kotlin-stdlib-jdk7
+[14:08:34] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.14.0-Release
+[14:08:34] [Server thread/INFO]: [DeluxeMenus] NMS hook has been setup successfully!
+[14:08:34] [Server thread/INFO]: [BattlePass] Loading BattlePass v4.3.6
+[14:08:34] [Server thread/INFO]: [OvRandomTeleport] Loading OvRandomTeleport v1.5.2
+[14:08:34] [Server thread/INFO]: [CMIEInjector] Loading CMIEInjector v1.0.2.4
+[14:08:34] [Server thread/INFO]: [TAB] Loading TAB v4.1.2
+[14:08:34] [Server thread/INFO]: [BLib] Loading BLib v1.0.9
+[14:08:34] [Server thread/INFO]: [BLib] set api
+[14:08:34] [Server thread/INFO]: [BAuction] Loading BAuction v1.3.3
+[14:08:35] [Server thread/INFO]: [BAuction] Starting Metrics. Opt-out using the global bStats config.
+[14:08:35] [Server thread/INFO]: [SCore] Loading SCore v42.42.42
+[14:08:35] [Server thread/INFO]: [ExecutableItems] Loading ExecutableItems v6.24.1.7
+[14:08:35] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:08:35] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[14:08:35] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_15
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] Enabling BlueSlimeCore v2.9.6.431
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] Successfully loaded 2 language(s).
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] Detected server as regular SpigotMC/PaperMC (not Folia)
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] [Update Checker] The update checking feature is disabled.
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] [Update Checker] No plugin update information is available.
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] [Update Checker] The update checking feature is disabled.
+[14:08:35] [Server thread/INFO]: [Blue Slime Core] [Update Checker] No plugin update information is available.
+[14:08:35] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.139
+[14:08:36] [Server thread/INFO]:         __    
+[14:08:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.139
+[14:08:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[14:08:36] [Server thread/INFO]: 
+[14:08:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[14:08:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[14:08:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[14:08:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[14:08:37] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1955ms)
+[14:08:37] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[14:08:37] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[14:08:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:08:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[14:08:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[14:08:38] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.17+6544-56d0383
+[14:08:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:08:38] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[14:08:38] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[14:08:39] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.7
+[14:08:39] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[14:08:40] [Server thread/INFO]: [CMIEInjector] Enabling CMIEInjector v1.0.2.4
+[14:08:40] [Server thread/INFO]: [CMIEInjector] Injecting CMI Economy
+[14:08:40] [Server thread/INFO]: [CMIEInjector] [Economy] CMI Economy found: Waiting
+[14:08:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:08:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:08:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:08:40] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[14:08:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:08:40] [Server thread/INFO]: Preparing level "world"
+[14:08:40] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.217
+[14:08:40] [Server thread/INFO]: [VoidTeleporter] Enabling VoidTeleporter v1.1.0
+[14:08:41] [Server thread/INFO]: [VoidTeleporter] VoidTeleporter by Ivainge Successful Enabled.
+[14:08:41] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[14:08:41] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:08:41] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.1.0
+[14:08:41] [Server thread/INFO]: Server version: v1_16_R3 - 1.16.5 - purpur  git-Purpur-1171 (MC: 1.16.5)
+[14:08:42] [Server thread/INFO]: CMI hooked.
+[14:08:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.5.1.0]
+[14:08:42] [Server thread/INFO]: PlaceholderAPI hooked.
+[14:08:42] [Server thread/INFO]: Updated (EN) language file. Took 43ms
+[14:08:42] [Server thread/INFO]: Updated (RU) language file. Took 41ms
+[14:08:42] [Server thread/INFO]: [spark] Enabling spark v1.10.71
+[14:08:42] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[14:08:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.71]
+[14:08:42] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[14:08:42] [Server thread/INFO]: [CMI] Enabling CMI v9.7.5.0
+[14:08:43] [Server thread/INFO]: _______________________________________________________
+[14:08:43] [Server thread/INFO]: ????? ?????? ????
+[14:08:43] [Server thread/INFO]: ????? ? ?? ? ????
+[14:08:43] [Server thread/INFO]: ?? ?? ??????  ?? 
+[14:08:43] [Server thread/INFO]: ?? ?? ??????  ?? 
+[14:08:43] [Server thread/INFO]: ????? ?????? ????
+[14:08:43] [Server thread/INFO]: ????? ?????? ????
+[14:08:43] [Server thread/INFO]: _______________________________________________________
+[14:08:43] [Server thread/INFO]: Integrating PaperSpigot async methods
+[14:08:43] [Server thread/INFO]: Vault found. (Loaded: true)
+[14:08:43] [Server thread/INFO]: Citizens found. (Loaded: false)
+[14:08:43] [Server thread/INFO]: 61 Enabled and 5 Disabled modules
+[14:08:43] [Server thread/INFO]: Loaded (1) portals into memory. Took 33ms
+[14:08:43] [Server thread/INFO]: ProtocolLib found. (Loaded: true)
+[14:08:43] [Server thread/WARN]: [CMI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.139 which is not a depend, softdepend or loadbefore of this plugin.
+[14:08:43] [Server thread/INFO]: Permission plugin: LuckPerms5.4.139
+[14:08:43] [Server thread/INFO]: Initialized Cipher256 AES
+[14:08:43] [Server thread/INFO]: Loaded (61) regular alias into memory. Took 43ms
+[14:08:43] [Server thread/INFO]: Loaded (1) custom text's into memory. Took 21ms
+[14:08:43] [Server thread/INFO]: (RandomTeleportation) Can't find world with (lobby) name
+[14:08:43] [Server thread/INFO]: 3.34.0 data base type detected
+[14:08:43] [Server thread/INFO]: Started SqLite data base. Took 171ms
+[14:08:43] [Server thread/WARN]: [CMI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[14:08:43] [Server thread/INFO]: Vault was found - Enabling capabilities. Economy: CMIEconomy
+[14:08:44] [Server thread/INFO]: Loaded (5) warning categories into memory. Took 1ms
+[14:08:44] [Server thread/INFO]: Loaded (3) warning commands into memory. Took 0ms
+[14:08:44] [Server thread/INFO]: Loaded (3) cooldowns into memory. Took 0ms
+[14:08:44] [Server thread/INFO]: Loaded (131) custom mob heads into memory. Took 28ms
+[14:08:44] [Server thread/INFO]: Initializing BungeeCord
+[14:08:44] [Server thread/INFO]: Loaded (9) kits into memory. Took 39ms
+[14:08:44] [Server thread/INFO]: Loaded (7) ranks into memory. Took 34ms
+[14:08:44] [Server thread/INFO]: Loaded (7) playtime rewards into memory. Took 20ms
+[14:08:44] [Server thread/INFO]: Loaded (1) jails into memory. Took 30ms
+[14:08:44] [Server thread/INFO]: Loaded (2) player data into memory. Took 13ms
+[14:08:44] [Server thread/INFO]: Loaded (5) playtime records into memory. Took 3ms
+[14:08:44] [Server thread/INFO]: Loaded (0) playtime reward records into memory. Took 0ms
+[14:08:44] [Server thread/INFO]: Loaded (10) custom alias into memory. Took 17ms
+[14:08:44] [Server thread/INFO]: Registered events. Took 116ms
+[14:08:44] [Server thread/INFO]: Loaded (0) event action commands into memory. Took 15ms
+[14:08:44] [Server thread/INFO]: Loaded (EN) language file into memory. Took 101ms
+[14:08:45] [Server thread/INFO]: Loaded (RU) language file into memory. Took 103ms
+[14:08:45] [Server thread/WARN]: [CMILib] Loaded class com.Zrips.CMI.Containers.Snd from CMI v9.7.5.0 which is not a depend, softdepend or loadbefore of this plugin.
+[14:08:45] [Server thread/INFO]: Loaded (244) worth values into memory. Took 48ms
+[14:08:45] [Server thread/INFO]: Loaded (5) warps into memory. Took 15ms
+[14:08:45] [Server thread/INFO]: VaultPermissions found. (Loaded: true)
+[14:08:45] [Server thread/INFO]: PlaceholderAPI found. (Loaded: true)
+[14:08:45] [Server thread/INFO]: Starting world timer.
+[14:08:45] [Server thread/INFO]: Initializing world manager.
+[14:08:45] [Server thread/INFO]: Loaded (1) schedules into memory. Took 33ms
+[14:08:45] [Server thread/INFO]: Loaded GeoIP
+[14:08:45] [Server thread/INFO]: Loaded (14) skin cache entries into memory. Took 18ms
+[14:08:45] [Server thread/INFO]: Loaded (0) ArmorStand templates into memory. Took 0ms
+[14:08:45] [Server thread/INFO]: Version 9.7.5.0 has been enabled
+[14:08:45] [Server thread/INFO]: _______________________________________________________
+[14:08:45] [Server thread/INFO]: [CMIEInjector][Economy] CMI Economy hooked.
+[14:08:45] [Server thread/INFO]: [SimpleItems] Enabling SimpleItems v0.3
+[14:08:45] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.0.3
+[14:08:45] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.16.4-1.16.5 (754)
+[14:08:45] [Server thread/INFO]: [EnhancedEnchants] Enabling EnhancedEnchants v1.6.1
+[14:08:45] [Server thread/INFO]: [EnhancedEnchants] [Warning] Enchant in config swift_sneak does not exist.
+[14:08:45] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.13.1
+[14:08:45] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[14:08:45] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[14:08:45] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[14:08:45] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[14:08:45] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[14:08:45] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.11
+[14:08:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_16_R3! Trying to find NMS support
+[14:08:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_16_R3' loaded!
+[14:08:45] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[14:08:46] [Server thread/INFO]: [TokenManager] Enabling TokenManager v3.2.8
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded Config.
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded Lang.
+[14:08:46] [Server thread/INFO]: [TokenManager] ===============================================
+[14:08:46] [Server thread/INFO]: [TokenManager] TokenManager has detected your server as offline mode.
+[14:08:46] [Server thread/INFO]: [TokenManager] DataManager will operate with Usernames.
+[14:08:46] [Server thread/INFO]: [TokenManager] If your server is NOT in offline mode, please manually set online-mode in TokenManager's config.yml.
+[14:08:46] [Server thread/INFO]: [TokenManager] ===============================================
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded DataManager.
+[14:08:46] [Server thread/INFO]: [TokenManager] ShopConfig: Failed to load displayed item for slot '0' of shop 'examplesubshop': '373:16421' is not a valid material
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded ShopConfig.
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded ShopManager.
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded WorthConfig.
+[14:08:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tm [3.2.8]
+[14:08:46] [Server thread/INFO]: [TokenManager] Successfully hooked into 'PlaceholderAPI'!
+[14:08:46] [Server thread/INFO]: [TokenManager] Successfully hooked into 'Vault'!
+[14:08:46] [Server thread/INFO]: [TokenManager] Loaded HookManager.
+[14:08:46] [Server thread/INFO]: [Chatty] Enabling Chatty v2.19.14
+[14:08:46] [Server thread/INFO]: [Chatty] Vault has successful hooked.
+[14:08:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: chatty [2.19.14]
+[14:08:46] [Server thread/INFO]: [Chatty] PlaceholderAPI has successful hooked.
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Enabling BetterTalismans v0.6-BETA
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Inventory title with support for more than 32 characters. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Hex colors are available! Ready for RGB..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Old constructor for HoverEvent found! Using it..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] New sendTitle method found! Using it..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] New setUnbreakable method found! Using it..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] New isUnbreakable method found! Using it..
+[14:08:46] [Server thread/INFO]:   ___      _   _          _____     _ _                       
+[14:08:46] [Server thread/INFO]:  | _ ) ___| |_| |_ ___ _ |_   _|_ _| (_)____ __  __ _ _ _  ___
+[14:08:46] [Server thread/INFO]:  | _ \/ -_)  _|  _/ -_) '_|| |/ _` | | (_-< '  \/ _` | ' \(_-<
+[14:08:46] [Server thread/INFO]:  |___/\___|\__|\__\___|_|  |_|\__,_|_|_/__/_|_|_\__,_|_||_/__/
+[14:08:46] [Server thread/INFO]: 
+[14:08:46] [Server thread/INFO]:    Running plugin BetterTalismans v0.6-BETA
+[14:08:46] [Server thread/INFO]:    Server running Purpur version git-Purpur-1171 (MC: 1.16.5)
+[14:08:46] [Server thread/INFO]:    (Implementing API version git-Purpur-1171 (MC: 1.16.5))
+[14:08:46] [Server thread/INFO]:    (Developed by  AlonsoAliaga - Thanks for using my plugin ?)
+[14:08:46] [Server thread/INFO]:    (If you loved the plugin consider leaving a review and mentioning your server IP in it!
+[14:08:46] [Server thread/INFO]: 
+[14:08:46] [Server thread/INFO]: ===================================================================================
+[14:08:46] [Server thread/INFO]: [BetterTalismans] You are using a Paper fork (Purpur). Plugin might have errors
+[14:08:46] [Server thread/INFO]: [BetterTalismans] and not work properly. Consider using SPIGOT!
+[14:08:46] [Server thread/INFO]: [BetterTalismans] This is not an error! This is just a warning to let you know that this
+[14:08:46] [Server thread/INFO]: [BetterTalismans] plugin has not been tested on paper forks. This plugin was made for spigot
+[14:08:46] [Server thread/INFO]: [BetterTalismans] and has been tested on spigot only. If you have issues report them to the
+[14:08:46] [Server thread/INFO]: [BetterTalismans] developer instead of reviewing 1 star. Thanks in advanced!
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Join our official support server on alonsoaliaga.com/discord
+[14:08:46] [Server thread/INFO]: ===================================================================================
+[14:08:46] [Server thread/INFO]: 
+[14:08:46] [Server thread/INFO]: [BetterTalismans] BungeeCord action bar available. Hooking..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] ProtocolLib found! Checking..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Configuration auto-update is not enabled!
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Discovering recipes is enabled and feature is available. Checking..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Recipe of Talisman 'pallasit' is disabled. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Recipe of Talisman 'tutanxlamon' is disabled. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Recipe of Talisman 'moon' is disabled. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Recipe of Talisman 'dushi' is disabled. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Recipe of Talisman 'firekam' is disabled. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Recipe of Talisman 'krokoit' is disabled. Skipping..
+[14:08:46] [Server thread/INFO]: [BetterTalismans] Successfully loaded 6 talismans!
+[14:08:46] [Server thread/INFO]: [DevLib] Enabling DevLib v3.1.5
+[14:08:46] [Server thread/INFO]: [DevLib] Debug mode -> false
+[14:08:46] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.1.5
+[14:08:46] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[14:08:46] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[14:08:46] [Server thread/INFO]: [ItemEdit] Hooking into PlaceholderApi
+[14:08:46] [Server thread/INFO]: [ItemEdit] Hooked into PlaceHolderAPI:
+[14:08:46] [Server thread/INFO]: [ItemEdit] placeholders:
+[14:08:46] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[14:08:46] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[14:08:46] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[14:08:46] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[14:08:46] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[14:08:46] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[14:08:46] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[14:08:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[14:08:46] [Server thread/INFO]: [ItemEdit] # Enabled (took 162 ms)
+[14:08:46] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[14:08:46] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[14:08:46] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[14:08:47] [Server thread/INFO]: [VoidGen] Generator settings "1" syntax is not valid. Using default values:
+[14:08:47] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[14:08:48] [Server thread/INFO]: [VoidGen] Generator settings "1" syntax is not valid. Using default values:
+[14:08:48] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[14:08:48] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[14:08:48] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[14:08:48] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.35-SNAPSHOT (build 3473)
+[14:08:48] [Server thread/INFO]: [Citizens] Loading external libraries
+[14:08:51] [Server thread/INFO]: [Citizens] Detected system language [[ru]]. If youd like you can contribute to Citizens translations via our Discord! https://discord.gg/Q6pZGSR
+[14:08:51] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[14:08:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[14:08:51] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[14:08:51] [Server thread/INFO]: [DevMines] Enabling DevMines v1.0.0
+[14:08:51] [Server thread/INFO]: [DevLib] @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G55G@@@@@@@@@@@@@@@@@@@@@
+[14:08:51] [Server thread/INFO]: [DevLib] &&&&&&&&@&&&&&@@@@@&&&&&&@@@@@@&&###&&B55P&@&&&&&&@@@&&&&@@@&&&&
+[14:08:51] [Server thread/INFO]: [DevLib] ####&#####&###&@@&########&@@&#######G55P&@###&&####@@###&@&###&
+[14:08:51] [Server thread/INFO]: [DevLib] ###&@@###@@&###@&###@@@@&&&@@#######G55P&@####&&&###&@@###&###&@
+[14:08:51] [Server thread/INFO]: [DevLib] ###&@@###@@&###@@###&&&&##&@@lack&#####B555#@@&###&&&###@@@&#####&@@
+[14:08:51] [Server thread/INFO]: [DevLib] ###&@@###@@&###@@@&######&@@@@lack&&##BP55B@@@@&&#####&@@@@@&###&@@@
+[14:08:51] [Server thread/INFO]: [DevLib] ----------------------------------------------------------------
+[14:08:51] [Server thread/INFO]: [DevLib] *** PLUGIN 'DevMines' ONLY ON https://mcdev.su ***
+[14:08:51] [Server thread/INFO]: [DevLib] ----------------------------------------------------------------
+[14:08:52] [Server thread/INFO]: [?] Шахта перезагружена, начинаем капать на /warp mine
+[14:08:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: devmines [1.0.0]
+[14:08:52] [Server thread/INFO]: [BSpawner] Enabling BSpawner v1.1.0
+[14:08:52] [Server thread/INFO]: Loaded 31 spawners!
+[14:08:52] [Server thread/INFO]: [PrimeSeller] Enabling PrimeSeller v2.3.6
+[14:08:52] [Server thread/INFO]: PrimeSeller | ??????????????????????????????????????????????????????????????????????????????????????
+[14:08:52] [Server thread/INFO]: PrimeSeller | ??????????????????????????????????????????????????????????????????????????????????????
+[14:08:52] [Server thread/INFO]: PrimeSeller | ??????????????????????????????????????????????????????????????????????????????????????
+[14:08:52] [Server thread/INFO]: PrimeSeller | ??????????????????????????????????????????????????????????????????????????????????????
+[14:08:52] [Server thread/INFO]: PrimeSeller | ??????????????????????????????????????????????????????????????????????????????????????
+[14:08:52] [Server thread/INFO]: PrimeSeller | ??????????????????????????????????????????????????????????????????????????????????????
+[14:08:52] [Server thread/INFO]: PrimeSeller | ????? ??? ???? ??? ??? ???? ???? 
+[14:08:52] [Server thread/INFO]: PrimeSeller | ????? ??? ???? ??? ??? ???? ???? v2.3.6 | Developer: Telegram: @byteswing
+[14:08:52] [Server thread/INFO]: PrimeSeller | ????? ??? ???? ??? ??? ???? ???? 
+[14:08:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: primeseller [1.0]
+[14:08:52] [Server thread/INFO]: [ajLeaderboards] Enabling ajLeaderboards v2.9.0
+[14:08:53] [Server thread/INFO]: [ajLeaderboards] Using H2 flatfile for board cache. (h2)
+[14:08:53] [Server thread/INFO]: [ajLeaderboards] Loaded 3 boards
+[14:08:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajlb [2.9.0]
+[14:08:53] [Server thread/INFO]: [ajLeaderboards] PAPI placeholders successfully registered!
+[14:08:53] [Server thread/INFO]: [ajLeaderboards] ajLeaderboards v2.9.0 by ajgeiss0702 enabled!
+[14:08:53] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.0-Release
+[14:08:53] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[14:08:54] [Server thread/INFO]: [DeluxeMenus] 19 GUI menus loaded!
+[14:08:54] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[14:08:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.0-Release]
+[14:08:54] [Server thread/INFO]: [BattlePass] Enabling BattlePass v4.3.6
+[14:08:54] [Server thread/INFO]: [BattlePass] Finished loading the daily quests. All quests loaded successfully.
+[14:08:54] [Server thread/INFO]: [BattlePass] Finished loading the week-1 quests. All quests loaded successfully.
+[14:08:54] [Server thread/INFO]: [BattlePass] Finished loading the week-2 quests. All quests loaded successfully.
+[14:08:54] [Server thread/INFO]: [BattlePass] Finished loading the week-3 quests. All quests loaded successfully.
+[14:08:54] [Server thread/INFO]: [BattlePass] Finished loading the week-4 quests. All quests loaded successfully.
+[14:08:54] [Server thread/INFO]: [Citizens] Hooked into Citizens
+[14:08:54] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: free
+[14:08:54] [Server thread/INFO]: [BattlePass] Successfully loaded the pass type with the id: premium
+[14:08:54] [Server thread/INFO]: [BattlePass] Register PlaceholderAPI placeholders
+[14:08:54] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: battlepass [1.1]
+[14:08:54] [Server thread/INFO]: [OvRandomTeleport] Enabling OvRandomTeleport v1.5.2
+[14:08:55] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[14:08:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[14:08:55] [Server thread/INFO]: [TAB] Enabled in 195ms
+[14:08:55] [Server thread/INFO]: [BLib] Enabling BLib v1.0.9
+[14:08:55] [Server thread/INFO]: [BLib] Обнаруженная версия сервера: 1.16.5
+[14:08:55] [Server thread/INFO]: [BAuction] Enabling BAuction v1.3.3
+[14:08:55] [pool-23-thread-1/INFO]: [ajLeaderboards] An update is available! (2.11.0) Run /ajLeaderboards update to download it!
+[14:08:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: BAuction [1.3.3]
+[14:08:55] [Server thread/INFO]: [SCore] Enabling SCore v42.42.42
+[14:08:56] [bauc File Db loader/INFO]: [BAuction] Успешно загружено 0 предметов за 52 мс.
+[14:08:56] [Server thread/INFO]: ================ SCore ================
+[14:08:56] [Server thread/INFO]: SCore Version of the server git-Purpur-1171 (MC: 1.16.5) !
+[14:08:56] [Server thread/INFO]: SCore ExecutableItems hooked !  (6.24.1.7) Load After
+[14:08:56] [Server thread/INFO]: SCore PlaceholderAPI hooked !  (2.11.6)  Load Before
+[14:08:56] [Server thread/INFO]: SCore Vault hooked !  (1.7.3-b131)  Load Before
+[14:08:56] [Server thread/INFO]: SCore Multiverse-Core hooked !  (4.3.1-b861)  Load Before
+[14:08:56] [Server thread/INFO]: SCore ProtocolLib hooked !
+[14:08:56] [Server thread/INFO]: SCore Locale setup: EN
+[14:08:56] [Server thread/INFO]: SCore NBTAPI hooked !  (2.13.1)  Load Before
+[14:08:56] [Server thread/INFO]: SCore DecentHolograms hooked !  (2.8.11)  Load Before
+[14:08:56] [Server thread/INFO]: SCore CMI hooked !  (9.7.5.0)  Load Before
+[14:08:56] [Server thread/INFO]: SCore TAB hooked !  (4.1.2)  Load Before
+[14:08:56] [Server thread/INFO]: SCore Language of the editor setup on EN
+[14:08:56] [Server thread/INFO]: SCore Language for in-game messages setup on EN
+[14:08:56] [Server thread/INFO]: SCore Connection to the db...
+[14:08:56] [Server thread/INFO]: SCore will connect to the database hosted: In Local
+[14:08:56] [Server thread/INFO]: SCore Creating table SecurityOP if not exists...
+[14:08:56] [Server thread/INFO]: SCore Creating table Commands if not exists...
+[14:08:56] [Server thread/INFO]: SCore Creating table Cooldowns if not exists...
+[14:08:56] [Server thread/INFO]: SCore Creating table Commands Player if not exists...
+[14:08:56] [Server thread/INFO]: SCore Creating table Commands Entity if not exists...
+[14:08:56] [Server thread/INFO]: SCore Creating table Commands Block if not exists...
+[14:08:56] [Server thread/INFO]: SCore Creating table UsePerDay if not exists...
+[14:08:57] [Server thread/INFO]: SCore SCore loaded 1 variables from local files !
+[14:08:57] [Server thread/INFO]: SCore SCore loaded 0 delayed commands saved
+[14:08:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: SCore [1.0.0]
+[14:08:57] [Server thread/INFO]: ================ SCore ================
+[14:08:57] [Server thread/INFO]: [ExecutableItems] Enabling ExecutableItems v6.24.1.7
+[14:08:57] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[14:08:57] [Server thread/INFO]: ExecutableItems PlaceholderAPI hooked !
+[14:08:57] [Server thread/INFO]: ExecutableItems NBTAPI hooked !
+[14:08:58] [Server thread/INFO]: ExecutableItems Amount of Executable Items configurations loaded: 4
+[14:08:58] [Server thread/INFO]: ExecutableItems Items with display conditions :  
+[14:08:58] [Server thread/INFO]: ========*======== ExecutableItems ========*========
+[14:08:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:08:58] [Server thread/INFO]: Running delayed init tasks
+[14:08:58] [Craft Scheduler Thread - 9 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[14:08:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerpoints [3.2.7]
+[14:08:58] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[14:08:58] [Server thread/WARN]: [CMI] Loaded class com.comphenix.protocol.events.PacketListener from ProtocolLib v5.2.0-SNAPSHOT-679 which is not a depend, softdepend or loadbefore of this plugin.
+[14:08:58] [Craft Scheduler Thread - 5 - CMILib/INFO]: New version of CMILib was detected. Please update it
+[14:08:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmi [9.7.5.0]
+[14:08:58] [Server thread/INFO]: [CMI] PlaceholderAPI hooked.
+[14:08:58] [Craft Scheduler Thread - 4 - PlayerPoints/INFO]: [RoseGarden] An update for PlayerPoints (v3.3.4) is available! You are running v3.2.7.
+[14:08:59] [Craft Scheduler Thread - 10 - DecentHolograms/INFO]: [DecentHolograms] Loaded 12 holograms!
+[14:08:59] [Craft Scheduler Thread - 12 - TokenManager/INFO]: [TokenManager] No updates were available. You are on the latest version!
+[14:08:59] [Server thread/INFO]: [Citizens] Could not fetch NMS field bq: [[bq.
+[14:08:59] [Server thread/INFO]: [Citizens] Could not fetch NMS field bq: [[null.
+[14:08:59] [Server thread/INFO]: [Citizens] Loaded 8 NPCs.
+[14:08:59] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.4.139 which is not a depend, softdepend or loadbefore of this plugin.
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: expirytime [1.2]
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: math [2.0.2]
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.6.2]
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.1]
+[14:08:59] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.1]
+[14:08:59] [Server thread/INFO]: [PAPI] [Javascript-Expansion] 4 scripts loaded!
+[14:08:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: javascript [2.1.2]
+[14:08:59] [Server thread/INFO]: 8 placeholder hook(s) registered! 4 placeholder hook(s) have an update available.
+[14:08:59] [Server thread/INFO]: Done (35.040s)! For help, type "help"
+[14:08:59] [Server thread/INFO]: Timings Reset
+[14:09:35] [User Authenticator #1/INFO]: UUID of player HungryMe is 38882047-eaa8-301e-bea2-d61229cb26c9
+[14:09:36] [Server thread/INFO]: HungryMe joined the game
+[14:09:36] [Server thread/INFO]: HungryMe[/127.0.0.1:60591] logged in with entity id 471 at ([lobby]318.27517551495686, 47.49390748022948, 194.2565271994706)
+[14:09:58] [Server thread/INFO]: HungryMe issued server command: /lp
+[14:10:03] [Server thread/WARN]: [CMI] Loaded class net.citizensnpcs.api.CitizensAPI from Citizens v2.0.35-SNAPSHOT (build 3473) which is not a depend, softdepend or loadbefore of this plugin.
+[14:10:03] [Server thread/INFO]: HungryMe issued server command: /menu
+[14:14:55] [Server thread/INFO]: HungryMe issued server command: /warp market
+[14:14:55] [Server thread/WARN]: HungryMe moved too quickly! 4.807702803262998,0.0,47.52793164005769
+[14:14:55] [Server thread/WARN]: HungryMe moved too quickly! 4.807702803262998,0.0,47.52793164005769
+[14:14:55] [Server thread/WARN]: HungryMe moved too quickly! 4.807702803262998,0.0,47.52793164005769
+[14:16:22] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.MANGROVE
+[14:16:22] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.TALL_MANGROVE
+[14:16:22] [Server thread/ERROR]: No TreeType mapping for TreeGenerator.TreeType.CHERRY
+[14:19:56] [Server thread/INFO]: HungryMe issued server command: /pass
+[14:19:57] [Server thread/INFO]: HungryMe issued server command: /pass
+[14:19:59] [Server thread/INFO]: HungryMe issued server command: /ah
+[14:20:01] [Server thread/INFO]: HungryMe issued server command: /ah
+[14:20:04] [Server thread/INFO]: HungryMe issued server command: /rtp
+[14:20:06] [Server thread/INFO]: HungryMe issued server command: /rtp default
+[14:20:09] [Server thread/INFO]: HungryMe issued server command: /rtp
+[14:20:10] [Server thread/INFO]: HungryMe issued server command: /rtp default
+[14:20:30] [Server thread/INFO]: HungryMe issued server command: /shop
+[14:20:43] [Server thread/INFO]: HungryMe issued server command: /kits
+[14:21:19] [luckperms-command-executor/INFO]: [LP] HungryMe's meta matching type suffix was cleared in context global. (0 nodes were removed.)
+[14:22:05] [Server thread/INFO]: HungryMe lost connection: Disconnected
+[14:22:05] [Server thread/INFO]: HungryMe left the game
+[14:23:52] [Server thread/INFO]: [?] Шахта перезагружена, начинаем капать на /warp mine
+[16:13:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6092391ms or 121847 ticks behind
+[16:13:42] [Server thread/INFO]: [?] Шахта перезагружена, начинаем капать на /warp mine
+[16:20:31] [Server thread/INFO]: [BSpawner] saving the database successfully!
+[16:28:42] [Server thread/INFO]: [?] Шахта перезагружена, начинаем капать на /warp mine
